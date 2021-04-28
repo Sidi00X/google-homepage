@@ -1,0 +1,97 @@
+/* NAVBAR & FOOTER */
+#footer-center-item {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#footer-icon {
+  position: relative;
+  top: 10px;
+  right: 0px;
+}
+/* END */
+
+/* GOOGLE LOGO */
+#google-logo {
+  display: block;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* END */
+
+/* SEARCH BAR */
+/* The clear property specifies on which sides of an element floating elements are not allowed to float */
+.container {
+  width: 500px;
+  clear: both;
+}
+/* The border-radius makes the corners rounded */
+.container input {
+  width: 120%;
+  clear: both;
+  border-radius: 30px;
+}
+#search-bar {
+  padding: 4%;
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
+  margin-top: 5%;
+  margin-left: -10%;
+}
+/* END */
+
+/* 2 BUTTONS */
+.button-container {
+  margin-top: 2%;
+}
+#first-button {
+  margin-right: 0.5%;
+  padding: 0.5%;
+}
+#second-button {
+  margin-left: 0.5%;
+  padding: 0.5%;
+}
+/* END */
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  background-color: #edecec;
+  color: black;
+  text-align: center;
+}
+/* END */
+
+/* LINKS */
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* END */
